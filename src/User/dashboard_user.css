@@ -1,0 +1,45 @@
+/* main {
+    height: 100vh;
+    width: 100%;
+} */
+
+#root,
+.dash,
+.content {
+  height: 100vh;
+  /* width: 100%; */
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.dash {
+  display: flex;
+  position: relative;
+}
+.content {
+  /* position: fixed; */
+  width: 100vw;
+  /* margin-left: 4%; */
+  overflow-y: scroll;
+}
+
+.form {
+  width: 20%;
+  height: 20%;
+  float: left;
+  margin-left: 40%;
+  margin-top: 2%;
+}
+.text {
+  margin-top: 2%;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: left;
+  
+}
+.text-ar {
+  margin-top: 2%;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: right;
+  
+}

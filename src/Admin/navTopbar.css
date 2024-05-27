@@ -1,0 +1,9 @@
+.topbar-box {
+    display: flex;
+    justify-content: space-between; 
+    padding: 2px;
+}
+/* .logo_bar {
+    width: 5%;
+    height: 1%;
+} */
